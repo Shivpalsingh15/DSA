@@ -127,12 +127,12 @@
  
  //  Q.10 greater no
  
-//  function greater(x,y){
-//      console.log(x>y? "Greater": 'Not Greater')
-//     }
+ function greater(x,y){
+     console.log(x>y? "Greater": 'Not Greater')
+    }
     
-//     greater(4, 5)
-//     // ===========================================================================================================================================
+    greater(8, 10)
+    // ===========================================================================================================================================
 
 
 //     //  Q.10 lesser no
@@ -189,9 +189,29 @@
 //         return
 //     }
 // }
+//  =========================================================================================================================================
+
+
+// Q.14  Given and character if it is a consonant print "Consonant"
+
+
+
+// function Consonant(str){
+//     let mainStr = str.toLowerCase();
+// console.log('mainStr:', mainStr)
+// let strLength = mainStr.length;
+// console.log('strLength:', strLength)
+
+// for(let i=0; i<strLength; i++){
+//     if(mainStr[i] !=="a" && mainStr[i] !=="e" && mainStr[i] !=="i" && mainStr[i] !=="o" && mainStr[i] !=="u" ){
+
+//         console.log("Consonant");
+//         return
+//     }
+// }
 
 
 // }
 
-// vowel("ktm")
+// Consonant("car")
 
