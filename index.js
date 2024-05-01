@@ -61,22 +61,47 @@
 // Q.6 updateAndCompare
 
 
-function updateAndCompare(num1, num2, num3) {
-    if(num1 > num2 ){
-        console.log(true)
-    }else{
-        console.log(false)
-    }
-    // let ans = num1+num3
-    if((num1+num3) > num2 ){
-        console.log(true)
-    }else{
-        console.log(false)
-    }
+// function updateAndCompare(num1, num2, num3) {
+    //     if(num1 > num2 ){
+        //         console.log(true)
+        //     }else{
+            //         console.log(false)
+            //     }
+            //     // let ans = num1+num3
+            //     if((num1+num3) > num2 ){
+                //         console.log(true)
+                //     }else{
+                    //         console.log(false)
+                    //     }
+                    
+// }
 
+
+// updateAndCompare(3, 4, 5)
+
+
+// ===========================================================================================================================================
+
+
+// Q.7 areaofrectangel
+
+function areaofrectangel(L, B){
+    console.log(L*B);
 }
 
+areaofrectangel(10, 12)
 
-updateAndCompare(3, 4, 5)
+
+// ===========================================================================================================================================
+// Q.8 perimeterofrectangel
+
+function perimeterofrectangel(L, B){
+    console.log(2*(L+B));
+}
+
+perimeterofrectangel(10, 12)
+// ===========================================================================================================================================
+
+
 
 
