@@ -170,3 +170,28 @@
 // yearOfBirth(2012)
 
 //  =========================================================================================================================================
+
+
+// Q.13 Given any character, if it is a vowel print "Vowel"
+
+
+
+// function vowel(str){
+//     let mainStr = str.toLowerCase();
+// console.log('mainStr:', mainStr)
+// let strLength = mainStr.length;
+// console.log('strLength:', strLength)
+
+// for(let i=0; i<strLength; i++){
+//     if(mainStr[i]=="a" ||mainStr[i]=="e" ||mainStr[i]=="i" ||mainStr[i]=="o" ||mainStr[i]=="u" ){
+
+//         console.log("Vowel");
+//         return
+//     }
+// }
+
+
+// }
+
+// vowel("ktm")
+
