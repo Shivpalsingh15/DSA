@@ -239,3 +239,17 @@
 // }
 
 // loop1toN(6)
+
+
+// ===============================================================================================================================
+
+// Q.17  multiplicationTableN
+
+function multiplicationTableN(num) {
+    for(let i=num; i<=num*10; i+=num){
+        console.log(i)
+    }
+    
+}
+
+multiplicationTableN(5)
