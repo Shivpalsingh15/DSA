@@ -105,17 +105,40 @@
 
 // Q.9 given stored username and password and input username and password, Print if the user can login or not.
 
-let  username = "Shivpal Singh";
-let  password = "ShivSingh123456";
+// let  username = "Shivpal Singh";
+// let  password = "ShivSingh123456";
 
-function loginOrnot(login_username, login_password){
-    if(login_username==username && login_password==password){
-        console.log("Login");
-    }else{
-        
-        console.log("not");
+// function loginOrnot(login_username, login_password){
+    //     if(login_username==username && login_password==password){
+        //         console.log("Login");
+        //     }else{
+            
+            //         console.log("not");
+            //     }
+            // }
+            
+            // loginOrnot("Shivpal Singh", "ShivSingh123456")
+            
+            
+            
+            
+            
+ // ===========================================================================================================================================
+ 
+ //  Q.10 greater no
+ 
+ function greater(x,y){
+     console.log(x>y? "Greater": 'Not Greater')
     }
+    
+    greater(4, 5)
+    // ===========================================================================================================================================
+
+
+    //  Q.10 lesser no
+
+ function lesser(x,y){
+    console.log(x<y? "lesser": 'Not lesser')
 }
 
-loginOrnot("Shivpal Singh", "ShivSingh123456")
-
+lesser(4, 5)
