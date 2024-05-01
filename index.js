@@ -85,23 +85,37 @@
 
 // Q.7 areaofrectangel
 
-function areaofrectangel(L, B){
-    console.log(L*B);
-}
+// function areaofrectangel(L, B){
+//     console.log(L*B);
+// }
 
-areaofrectangel(10, 12)
+// areaofrectangel(10, 12)
 
 
 // ===========================================================================================================================================
 // Q.8 perimeterofrectangel
 
-function perimeterofrectangel(L, B){
-    console.log(2*(L+B));
-}
+// function perimeterofrectangel(L, B){
+//     console.log(2*(L+B));
+// }
 
-perimeterofrectangel(10, 12)
+// perimeterofrectangel(10, 12)
 // ===========================================================================================================================================
 
 
+// Q.9 given stored username and password and input username and password, Print if the user can login or not.
 
+let  username = "Shivpal Singh";
+let  password = "ShivSingh123456";
+
+function loginOrnot(login_username, login_password){
+    if(login_username==username && login_password==password){
+        console.log("Login");
+    }else{
+        
+        console.log("not");
+    }
+}
+
+loginOrnot("Shivpal Singh", "ShivSingh123456")
 
