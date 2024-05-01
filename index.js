@@ -57,3 +57,26 @@
 
 //   squareAndSum(2, 4, 6)
 // ===========================================================================================================================================
+
+// Q.6 updateAndCompare
+
+
+function updateAndCompare(num1, num2, num3) {
+    if(num1 > num2 ){
+        console.log(true)
+    }else{
+        console.log(false)
+    }
+    // let ans = num1+num3
+    if((num1+num3) > num2 ){
+        console.log(true)
+    }else{
+        console.log(false)
+    }
+
+}
+
+
+updateAndCompare(3, 4, 5)
+
+
