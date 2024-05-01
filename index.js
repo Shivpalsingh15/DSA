@@ -219,10 +219,23 @@
 
 // Q.15  checkEvenOdd
 
-function checkEvenOdd(number) {
-        console.log(number%2==0? "Even": "Odd")
+// function checkEvenOdd(number) {
+//         console.log(number%2==0? "Even": "Odd")
 
-    }
+//     }
     
 
-    checkEvenOdd(6)
+//     checkEvenOdd(6)
+// ===============================================================================================================================
+
+// Q.16  loop1toN
+
+// function loop1toN(num) {
+//     for(let i = 1; i<=num; i++){
+//        console.log(i)
+//    }
+ 
+   
+// }
+
+// loop1toN(6)
