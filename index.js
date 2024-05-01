@@ -127,18 +127,46 @@
  
  //  Q.10 greater no
  
- function greater(x,y){
-     console.log(x>y? "Greater": 'Not Greater')
-    }
+//  function greater(x,y){
+//      console.log(x>y? "Greater": 'Not Greater')
+//     }
     
-    greater(4, 5)
-    // ===========================================================================================================================================
+//     greater(4, 5)
+//     // ===========================================================================================================================================
 
 
-    //  Q.10 lesser no
+//     //  Q.10 lesser no
 
- function lesser(x,y){
-    console.log(x<y? "lesser": 'Not lesser')
-}
+//  function lesser(x,y){
+//     console.log(x<y? "lesser": 'Not lesser')
+// }
 
-lesser(4, 5)
+// lesser(4, 5)
+//  ===========================================================================================================================================
+
+
+//   Q.11  Given the year of birth, if the age is between 13 and 19 (both included) print Teenage and in between 20 and 29 (both included) print Twenties
+
+// function yearOfBirth(ageYear){
+//     const date = new Date();
+//     let year = date.getFullYear();
+//     let age = year - ageYear;
+//     if(age <13 ){
+//         console.log("Minors");
+        
+//     }
+    
+//     else if(age >= 13 && age <=19 ){
+//         console.log("Teenage");
+//     }else if(age >=20  && age <=60){
+//         console.log("Adult");
+        
+//     }else{
+//     console.log("Seniors");
+
+// }
+// }
+
+// yearOfBirth(2012)
+
+//  =========================================================================================================================================
