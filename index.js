@@ -127,11 +127,11 @@
  
  //  Q.10 greater no
  
- function greater(x,y){
-     console.log(x>y? "Greater": 'Not Greater')
-    }
+//  function greater(x,y){
+//      console.log(x>y? "Greater": 'Not Greater')
+//     }
     
-    greater(8, 10)
+//     greater(8, 10)
     // ===========================================================================================================================================
 
 
@@ -215,3 +215,14 @@
 
 // Consonant("car")
 
+// ===============================================================================================================================
+
+// Q.15  checkEvenOdd
+
+function checkEvenOdd(number) {
+        console.log(number%2==0? "Even": "Odd")
+
+    }
+    
+
+    checkEvenOdd(6)
