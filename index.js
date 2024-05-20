@@ -253,3 +253,4 @@ function multiplicationTableN(num) {
 }
 
 multiplicationTableN(5)
+multiplicationTableN(6)
